@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Account_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>we can share the record to public groups</description>
+        <label>Account Sharing</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Backbenchers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

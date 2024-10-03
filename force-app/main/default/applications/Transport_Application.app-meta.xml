@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Transport Application</label>
+    <navType>Standard</navType>
+    <tabs>Customer__c</tabs>
+    <tabs>Delivery_Information__c</tabs>
+    <tabs>Transporter__c</tabs>
+    <tabs>Many_to_many__c</tabs>
+    <tabs>Product_Info__c</tabs>
+    <tabs>Employee__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Transport_Application_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Sub</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sub</label>
+        <sharedTo>
+            <roleAndSubordinates>MarketingTeam</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Subsidiary__c</field>
+            <operation>equals</operation>
+            <value>IT Pro</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Lead</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>sharing record</description>
+        <label>Lead</label>
+        <sharedTo>
+            <group>Assign_the_records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Backbenchers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
